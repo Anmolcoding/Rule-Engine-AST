@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Rule Engine AST</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>Rule Engine with AST</h1>
+    
+    <div id="rule-form">
+        <h3>Create Rule</h3>
+        <input type="text" id="rule-input" placeholder="Enter rule string (e.g., age > 30 AND salary > 50000)">
+        <button id="create-rule-btn">Create Rule</button>
+        <p id="rule-result"></p>
+    </div>
+    
+    <div id="evaluate-form">
+        <h3>Evaluate Rule</h3>
+        <input type="text" id="rule-id" placeholder="Enter rule ID">
+        <textarea id="user-data" placeholder='Enter user data as JSON (e.g., {"age": 35, "salary": 60000})'></textarea>
+        <button id="evaluate-rule-btn">Evaluate Rule</button>
+        <p id="evaluation-result"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

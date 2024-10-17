@@ -1,0 +1,9 @@
+{
+    "rules": [
+      {
+        "rule": "age > 30 AND salary > 50000",
+        "ast": "Node(type=operator, value=AND, left=Node(type=operand, value=age > 30), right=Node(type=operand, value=salary > 50000))"
+      }
+    ]
+  }
+  
